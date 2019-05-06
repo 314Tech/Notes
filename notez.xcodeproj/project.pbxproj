@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1DD6DB2280074100780B1E /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DD6D92280074100780B1E /* NoteTableViewCell.swift */; };
+		4A1DD6DC2280074100780B1E /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A1DD6DA2280074100780B1E /* NoteTableViewCell.xib */; };
 		4A7EC49D227F7A0A00F3BD04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EC49C227F7A0A00F3BD04 /* AppDelegate.swift */; };
 		4A7EC49F227F7A0A00F3BD04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EC49E227F7A0A00F3BD04 /* ViewController.swift */; };
 		4A7EC4A2227F7A0A00F3BD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EC4A0227F7A0A00F3BD04 /* Main.storyboard */; };
 		4A7EC4A4227F7A1200F3BD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EC4A3227F7A1200F3BD04 /* Assets.xcassets */; };
 		4A7EC4A7227F7A1200F3BD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EC4A5227F7A1200F3BD04 /* LaunchScreen.storyboard */; };
+		4A7EC4B5227F885A00F3BD04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EC4B4227F885A00F3BD04 /* GoogleService-Info.plist */; };
+		4A7EC4B7227F9BAC00F3BD04 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EC4B6227F9BAC00F3BD04 /* AuthViewController.swift */; };
+		4A7EC4B9227F9C2700F3BD04 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EC4B8227F9C2700F3BD04 /* WelcomeViewController.swift */; };
+		4A7EC4BB227F9C6100F3BD04 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EC4BA227F9C6100F3BD04 /* NoteViewController.swift */; };
+		4AEB607A22801E4D003C0603 /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB607922801E4D003C0603 /* EditNoteViewController.swift */; };
+		4AEB607C22802CBD003C0603 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB607B22802CBD003C0603 /* Note.swift */; };
+		A54B87B2BA56687235BCA5B2 /* Pods_notez.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155F0774761C1449AB3354D8 /* Pods_notez.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F83DD41657F4FDA31627323 /* Pods-notez.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notez.release.xcconfig"; path = "Pods/Target Support Files/Pods-notez/Pods-notez.release.xcconfig"; sourceTree = "<group>"; };
+		155F0774761C1449AB3354D8 /* Pods_notez.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notez.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1DD6D92280074100780B1E /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		4A1DD6DA2280074100780B1E /* NoteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteTableViewCell.xib; sourceTree = "<group>"; };
 		4A7EC499227F7A0A00F3BD04 /* notez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7EC49C227F7A0A00F3BD04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A7EC49E227F7A0A00F3BD04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,13 @@
 		4A7EC4A3227F7A1200F3BD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7EC4A6227F7A1200F3BD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A7EC4A8227F7A1200F3BD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7EC4B4227F885A00F3BD04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4A7EC4B6227F9BAC00F3BD04 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		4A7EC4B8227F9C2700F3BD04 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4A7EC4BA227F9C6100F3BD04 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		4AEB607922801E4D003C0603 /* EditNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
+		4AEB607B22802CBD003C0603 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		4BD0558AE31A2C6CB3EECE93 /* Pods-notez.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notez.debug.xcconfig"; path = "Pods/Target Support Files/Pods-notez/Pods-notez.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54B87B2BA56687235BCA5B2 /* Pods_notez.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +59,13 @@
 		4A7EC490227F7A0A00F3BD04 = {
 			isa = PBXGroup;
 			children = (
+				4A7EC4B0227F7D4300F3BD04 /* Controller */,
+				4A7EC4AF227F7D3900F3BD04 /* View */,
+				4A7EC4AE227F7D0200F3BD04 /* Model */,
 				4A7EC49B227F7A0A00F3BD04 /* notez */,
 				4A7EC49A227F7A0A00F3BD04 /* Products */,
+				E67C3CF0F14020CC37B1AC3A /* Pods */,
+				C8FB37E3C7AC9A2DC09CAC4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,68 @@
 		4A7EC49B227F7A0A00F3BD04 /* notez */ = {
 			isa = PBXGroup;
 			children = (
+				4A7EC4B4227F885A00F3BD04 /* GoogleService-Info.plist */,
 				4A7EC49C227F7A0A00F3BD04 /* AppDelegate.swift */,
-				4A7EC49E227F7A0A00F3BD04 /* ViewController.swift */,
-				4A7EC4A0227F7A0A00F3BD04 /* Main.storyboard */,
 				4A7EC4A3227F7A1200F3BD04 /* Assets.xcassets */,
-				4A7EC4A5227F7A1200F3BD04 /* LaunchScreen.storyboard */,
 				4A7EC4A8227F7A1200F3BD04 /* Info.plist */,
 			);
 			path = notez;
+			sourceTree = "<group>";
+		};
+		4A7EC4AE227F7D0200F3BD04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AEB607B22802CBD003C0603 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A7EC4AF227F7D3900F3BD04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EC4A5227F7A1200F3BD04 /* LaunchScreen.storyboard */,
+				4A7EC4A0227F7A0A00F3BD04 /* Main.storyboard */,
+				4A7EC4B3227F7E9E00F3BD04 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A7EC4B0227F7D4300F3BD04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EC49E227F7A0A00F3BD04 /* ViewController.swift */,
+				4A7EC4B6227F9BAC00F3BD04 /* AuthViewController.swift */,
+				4A7EC4B8227F9C2700F3BD04 /* WelcomeViewController.swift */,
+				4A7EC4BA227F9C6100F3BD04 /* NoteViewController.swift */,
+				4AEB607922801E4D003C0603 /* EditNoteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A7EC4B3227F7E9E00F3BD04 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4A1DD6D92280074100780B1E /* NoteTableViewCell.swift */,
+				4A1DD6DA2280074100780B1E /* NoteTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C8FB37E3C7AC9A2DC09CAC4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				155F0774761C1449AB3354D8 /* Pods_notez.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E67C3CF0F14020CC37B1AC3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BD0558AE31A2C6CB3EECE93 /* Pods-notez.debug.xcconfig */,
+				0F83DD41657F4FDA31627323 /* Pods-notez.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A7EC4AB227F7A1200F3BD04 /* Build configuration list for PBXNativeTarget "notez" */;
 			buildPhases = (
+				D117DE164940C5ABE2809C15 /* [CP] Check Pods Manifest.lock */,
 				4A7EC495227F7A0A00F3BD04 /* Sources */,
 				4A7EC496227F7A0A00F3BD04 /* Frameworks */,
 				4A7EC497227F7A0A00F3BD04 /* Resources */,
+				7123EDC7C68698148DEE74B4 /* [CP] Embed Pods Frameworks */,
+				D72EC2255CF8E9C48758C939 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,12 +206,96 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A7EC4A7227F7A1200F3BD04 /* LaunchScreen.storyboard in Resources */,
+				4A7EC4B5227F885A00F3BD04 /* GoogleService-Info.plist in Resources */,
 				4A7EC4A4227F7A1200F3BD04 /* Assets.xcassets in Resources */,
+				4A1DD6DC2280074100780B1E /* NoteTableViewCell.xib in Resources */,
 				4A7EC4A2227F7A0A00F3BD04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7123EDC7C68698148DEE74B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-notez/Pods-notez-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-notez/Pods-notez-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D117DE164940C5ABE2809C15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-notez-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72EC2255CF8E9C48758C939 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-notez/Pods-notez-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A7EC495227F7A0A00F3BD04 /* Sources */ = {
@@ -136,6 +303,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A7EC49F227F7A0A00F3BD04 /* ViewController.swift in Sources */,
+				4A7EC4B9227F9C2700F3BD04 /* WelcomeViewController.swift in Sources */,
+				4A7EC4B7227F9BAC00F3BD04 /* AuthViewController.swift in Sources */,
+				4AEB607C22802CBD003C0603 /* Note.swift in Sources */,
+				4AEB607A22801E4D003C0603 /* EditNoteViewController.swift in Sources */,
+				4A7EC4BB227F9C6100F3BD04 /* NoteViewController.swift in Sources */,
+				4A1DD6DB2280074100780B1E /* NoteTableViewCell.swift in Sources */,
 				4A7EC49D227F7A0A00F3BD04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,11 +453,13 @@
 		};
 		4A7EC4AC227F7A1200F3BD04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD0558AE31A2C6CB3EECE93 /* Pods-notez.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z74MDTY33G;
 				INFOPLIST_FILE = notez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +473,13 @@
 		};
 		4A7EC4AD227F7A1200F3BD04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F83DD41657F4FDA31627323 /* Pods-notez.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z74MDTY33G;
 				INFOPLIST_FILE = notez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
